@@ -1,0 +1,61 @@
+body{
+  /* font-family: 'Finger Paint', cursive; */
+}
+#login-div{
+  display: flex;
+  flex-direction: column;
+  background-color: #66ffff;
+  max-width:40%;
+  max-height:100%;
+  margin:10% auto;
+  box-shadow: 5px 5px 5px 0px rgb(13, 13, 13);
+
+}
+.form-div{
+  display: flex;
+  flex-direction: column;
+  height:250px;
+}
+.login-button{
+  margin-top: 10px;
+}
+.login-title{
+  text-align: center;
+}
+
+.register-button{
+  margin-top: 10px;
+}
+.register-title{
+  text-align: center;
+}
+#register-div{
+  display: flex;
+  flex-direction: column;
+  background-color: #66ffff;
+  max-width:40%;
+  max-height:100%;
+  margin:10% auto;
+  box-shadow: 5px 5px 5px 0px rgb(13, 13, 13);
+position: relative;
+
+}
+#noAccount{
+  text-align: center;
+}
+#loginButtonInRegister{
+  position:absolute;
+  right:10;
+  bottom:20;
+}
+#product-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10%;
+  grid-column-gap: 10px;
+
+}
+.card{
+  height:100%;
+  transform: scale(0.8);
+}
